@@ -1,0 +1,18 @@
+{
+  "name": "api-two",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.24.3",
+    "mssql": "^10.0.1",
+    "nodemon": "^3.0.1"
+  }
+}
